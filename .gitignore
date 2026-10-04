@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ユーザのプライベートな作業指示（リポジトリにはチェックインしない）
+CLAUDE.local.md
+
+# feed_risk_checker プロジェクト固有
+# SQLite出力（実行結果データ。コードベースには含めない）
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+app/.env
+app/bin/*
+!app/bin/.gitkeep
